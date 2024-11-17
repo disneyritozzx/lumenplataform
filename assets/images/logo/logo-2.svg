@@ -1,0 +1,42 @@
+<svg width="60" height="60" viewBox="0 0 250 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Logo Design with Orange and Dark Colors -->
+  <path d="M32.4377 111.43H105.01L114.248 127.43H32.4377C23.6012 127.43 16.4377 134.594 16.4377 143.43C16.4377 152.267 23.6012 159.43 32.4377 159.43H132.723C138.678 169.741 149.505 175.483 160.617 175.43C160.557 175.43 160.497 175.43 160.438 175.43H32.4377C14.7646 175.43 0.437744 161.103 0.437744 143.43C0.437744 125.757 14.7646 111.43 32.4377 111.43Z" fill="url(#paint0_linear_106_2)"/>
+  <path d="M32.4377 135.43H118.866L128.104 151.43H32.4377C28.0195 151.43 24.4377 147.848 24.4377 143.43C24.4377 139.012 28.0195 135.43 32.4377 135.43Z" fill="url(#paint1_linear_106_2)"/>
+  <path d="M132.736 159.425L96.4496 96.5753L105.687 80.5753L146.592 151.425C151.01 159.077 160.796 161.699 168.448 157.281C176.101 152.863 178.723 143.077 174.305 135.425L124.162 48.5753C130.114 38.2626 129.674 26.0145 124.071 16.4185C124.101 16.47 124.131 16.5216 124.161 16.5734L188.161 127.425C196.998 142.73 191.754 162.301 176.448 171.137C161.143 179.974 141.572 174.73 132.736 159.425Z" fill="url(#paint2_linear_106_2)"/>
+  <path d="M153.52 147.425L110.306 72.5753L119.544 56.5753L167.377 139.425C169.586 143.251 168.275 148.144 164.448 150.353C160.622 152.562 155.729 151.251 153.52 147.425Z" fill="url(#paint3_linear_106_2)"/>
+  <path d="M124.156 48.5742L87.8698 111.424H69.3946L110.299 40.5742C114.718 32.9215 112.096 23.1361 104.443 18.7178C96.7904 14.2995 87.0049 16.9215 82.5867 24.5742L32.4442 111.424C20.5375 111.426 10.1504 117.931 4.64111 127.581C4.67067 127.529 4.7004 127.477 4.73027 127.425L68.7303 16.5742C77.5668 1.26883 97.1377 -3.97518 112.443 4.86138C127.748 13.6979 132.992 33.2688 124.156 48.5742Z" fill="url(#paint4_linear_106_2)"/>
+  <path d="M103.371 36.5742L60.157 111.424H41.6818L89.5149 28.5742C91.724 24.7479 96.6167 23.4368 100.443 25.646C104.269 27.8551 105.58 32.7478 103.371 36.5742Z" fill="url(#paint5_linear_106_2)"/>
+  <defs>
+    <!-- Gradient for Logo -->
+    <linearGradient id="paint0_linear_106_2" x1="0.437744" y1="87.9995" x2="192.454" y2="87.9995" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6600"/>
+      <stop offset="1" stop-color="#FF3300"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear_106_2" x1="0.437744" y1="87.9995" x2="192.454" y2="87.9995" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF3300"/>
+      <stop offset="1" stop-color="#FF6600"/>
+    </linearGradient>
+    <linearGradient id="paint2_linear_106_2" x1="0.437744" y1="87.9995" x2="192.454" y2="87.9995" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6600"/>
+      <stop offset="1" stop-color="#FF3300"/>
+    </linearGradient>
+    <linearGradient id="paint3_linear_106_2" x1="0.437744" y1="87.9995" x2="192.454" y2="87.9995" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6600"/>
+      <stop offset="1" stop-color="#FF3300"/>
+    </linearGradient>
+    <linearGradient id="paint4_linear_106_2" x1="108.957" y1="3.24701" x2="27.4376" y2="146.448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6600"/>
+      <stop offset="1" stop-color="#FF3300"/>
+    </linearGradient>
+    <linearGradient id="paint5_linear_106_2" x1="108.957" y1="3.24701" x2="27.4376" y2="146.448" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6600"/>
+      <stop offset="1" stop-color="#FF3300"/>
+    </linearGradient>
+
+    <!-- Gradient for Text "Lumen" -->
+    <linearGradient id="text_gradient" x1="0%" y1="0%" x2="100%" y2="100%" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF6600"/>
+      <stop offset="100%" stop-color="#FF3300"/>
+    </linearGradient>
+  </defs>
+</svg>
