@@ -1,1 +1,1 @@
-im tired of shcool aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+js to update website
