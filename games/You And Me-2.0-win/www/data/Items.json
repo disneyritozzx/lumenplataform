@@ -1,7 +1,0 @@
-[
-null,
-{"id":1,"animationId":0,"consumable":false,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"A nice and sharp weapon.","effects":[],"hitType":0,"iconIndex":0,"itypeId":2,"name":"Lance","note":"","occasion":3,"price":0,"repeats":1,"scope":7,"speed":0,"successRate":100,"tpGain":0},
-{"id":2,"animationId":0,"consumable":false,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"The city was founded in the year 006 of her holyness \nAtia. ","effects":[],"hitType":0,"iconIndex":0,"itypeId":2,"name":"Book","note":"","occasion":3,"price":0,"repeats":1,"scope":7,"speed":0,"successRate":100,"tpGain":0},
-{"id":3,"animationId":0,"consumable":false,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"The goddesses lyre - 100% real.","effects":[],"hitType":0,"iconIndex":0,"itypeId":2,"name":"Lyre","note":"","occasion":3,"price":0,"repeats":1,"scope":7,"speed":0,"successRate":100,"tpGain":0},
-{"id":4,"animationId":0,"consumable":false,"damage":{"critical":false,"elementId":0,"formula":"0","type":0,"variance":20},"description":"A big green key.","effects":[],"hitType":0,"iconIndex":0,"itypeId":2,"name":"Key","note":"","occasion":3,"price":0,"repeats":1,"scope":7,"speed":0,"successRate":100,"tpGain":0}
-]
