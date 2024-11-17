@@ -397,7 +397,7 @@ function setup() {
 
         score = -100;
         endScore = -100;
-        scoreMultiplier = 0.5;
+        scoreMultiplier = 5;
         endScoreMultiplier = 0.5;
         player.x = halfOfRendererWidth;
         player.y = halfOfRendererWidth;

@@ -49,7 +49,7 @@ const games = [
               },
               {
 name:"2048",
-thumbnail: "games/1v1/favicon.ico",
+thumbnail: "games/1v1/2048_logo.png",
 url: "games/1v1",
 category: "PC"
               },
@@ -59,12 +59,199 @@ category: "PC"
     url: "games/crossyroad",
     category: "PC"
 },
+{
+    name: "Duck Life 1",
+    thumbnail: "games/ducklife/logo.jpg",
+    url: "games/ducklife",
+    category: "PC"
+},
+{
+    name: "Duck Life 2",
+    thumbnail: "games/ducklife2/logo.png",
+    url: "games/ducklife2",
+    category: "PC"
+},
+{
+    name: "Duck Life 3",
+    thumbnail: "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/f5671816-e95b-4d41-adb7-411708f431ba.png",
+    url: "games/ducklife3",
+    category: "PC"
+},
+{
+    name: "Duck Life 4",
+    thumbnail: "games/ducklife4/logo.png",
+    url: "games/ducklife4",
+    category: "PC"
+},
+{
+    name: "Bloons Td 1",
+    thumbnail: "games/btd1/logo.jpg",
+    url: "games/btd1",
+    category: "PC"
+},
+{
+    name: "Bloons Td 2",
+    thumbnail: "games/btd2/Btd2.webp",
+    url: "games/btd2",
+    category: "PC"
+},
+{
+    name: "Bloons Td 3",
+    thumbnail: "games/btd3/Btd3a.webp",
+    url: "games/btd3",
+    category: "PC"
+},
+{
+    name: "Bloons Td 4",
+    thumbnail: "games/btd4/btd4.webp",
+    url: "games/btd4",
+    category: "PC"
+},
+{
+    name: "Bloons Td 5",
+    thumbnail: "games/btd5/Btd5_logo.webp",
+    url: "games/btd5",
+    category: "PC"
+},
+{
+    name: "Geometry Dash(High Ram Use)",
+    thumbnail: "games/geometrydash/logo.png",
+    url: "games/geometrydash",
+    category: "PC"
+},
+{
+    name: "Drift boss",
+    thumbnail: "games/driftboss/drift-boss.png",
+    url: "games/driftboss",
+    category: "PC"
+},
+{
+    name: "Stickman Boost",
+    thumbnail: "games/stickmanboost/cover.png",
+    url: "games/stickmanboost",
+    category: "PC"
+},
+/* acho que tá bugado, depois tento arrumar
+{
+    name: "Bottle Flip",
+    thumbnail: "games/bottleflip/icons/icon-256.png",
+    url: "games/bottleflip",
+    category: "PC"
+},*/
               {
-                name:"Cookie Clicker",
-                thumbnail: "games/cookieclicker/img/favicon.ico",
-                url: "games/cookieclicker",
-                category: "PC"
-                              },
+   name:"Cookie Clicker",
+   thumbnail: "games/cookieclicker/icon.webp",
+   url: "games/cookieclicker",
+   category: "PC"
+  },
+   {
+  name:"Papa's Bakeria",
+ thumbnail: "games/papabakeria/images.webp",
+ url: "games/papabakeria",
+  category: "PC"
+ },
+  {
+ name:"Papa's Burgueria",
+ thumbnail: "games/papaburgueria/logo.png",
+ url: "games/papaburgueria",
+ category: "PC"
+},
+{
+name:"Papa's Cheeseria",
+thumbnail: "games/papacheeseria/logo.jpg",
+url: "games/papacheeseria",
+category: "PC"
+},
+{
+  name: "Papa's Cupcakeria",
+  thumbnail: "games/papascupcakeria/logo.webp",
+  url: "games/papascupcakeria",
+  category: "PC"
+  },
+  {
+    name: "Papa's Donuteria",
+    thumbnail: "games/papadonuteria/logo.webp",
+    url: "games/papadonuteria",
+    category: "PC"
+  },
+  {
+    name: "Papa's Freezeria",
+    thumbnail: "games/papasfreezeria/logo.webp",
+    url: "games/papasfreezeria",
+    category: "PC"
+    },
+    {
+        name: "Papa's Pastaria",
+        thumbnail: "games/papapastaria/logo.webp",
+        url: "games/papapastaria",
+        category: "PC"
+    },
+    {
+        name: "Papa's Pizzeria",
+        thumbnail: "games/papapizzeria/logo.webp",
+        url: "games/papapizzeria",
+        category: "PC"
+    },
+    {
+        name: "Papa's Scooperia",
+        thumbnail: "games/papascooperia/logo.webp",
+        url: "games/papascooperia",
+        category: "PC"
+    },
+    {
+        name: "Papa's Sushiria",
+        thumbnail: "games/papasushisaria/logo.webp",
+        url: "games/papasushisaria",
+        category: "PC"
+    },
+{
+    name: "Moto X3M Pool",
+    thumbnail: "games/mx3/splash.jpg",
+    url: "games/mx3/",
+    category: "PC"
+},
+{
+    name: "Moto X3M Winter",
+    thumbnail: "games/mx3w/splash.jpg",
+    url: "games/mx3w/",
+    category: "PC"
+},
+{
+    name: "Moto X3M Spooky",
+    thumbnail: "games/mx3s/splash.jpeg",
+    url: "games/mx3s",
+    category: "PC"
+},
+{
+    name: "Moto X3M",
+    thumbnail: "games/mx3o/splash.jpg",
+    url: "games/mx3o",
+    category: "PC"
+},
+{
+    name: "Friday Night Funkin",
+    thumbnail: "games/fnf/logo.png",
+    url: "games/fnf/",
+    category: "PC"
+},
+{
+name: "Paper.io 2",
+thumbnail: "games/paperio2/logo.png",
+url: "games/paperio2",
+category: "PC"
+},
+{
+    name:"1v1.lol",
+    thumbnail: "games/1v1lol/logo.png",
+    url: "games/1v1lol",
+    category: "PC"
+},
+                              {
+                                name:"Magic Tiles",
+                                thumbnail: "games/magictiles/unnamed.webp",
+                                url: "games/magictiles",
+                                category: "PC"
+                                              },
                
                       {
                 name: "Flydra",
@@ -72,6 +259,12 @@ category: "PC"
                 url: "games/whatthat",
                 category: "PC"
                   },
+                  {
+                    name: "Google Snake",
+                    thumbnail: "games/googlesnake/snakewebp.webp",
+                    url: "games/googlesnake",
+                    category: "PC"
+                      },
  /* arquivo muito pesado, lanço depois de fazer o resto.   
  {
   name: "Minecraft",
@@ -117,6 +310,19 @@ category: "PC"
     },
   ];
   
+  function updateGameCount() {
+    const pcGamesCount = games.filter(game => game.category === "PC").length;
+    const pcGamesTitle = document.getElementById('pc-games-title');
+    pcGamesTitle.innerHTML = `<i class="fas fa-desktop"></i> PC Games - ${pcGamesCount}`;
+}
+
+window.addEventListener('load', updateGameCount);
+
+
+window.addEventListener('load', updateGameCount);
+
+
+window.addEventListener('load', updateGameCount);
 
   const cellphoneGameGrid = document.getElementById('cellphone-game-grid');
   const pcGameGrid = document.getElementById('pc-game-grid');
