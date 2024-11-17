@@ -1,313 +1,208 @@
 const games = [
-    {
-      name: "Pigeon Ascent",
-      thumbnail: "games/w-master/pigeon.png",
-      url: "games/w-master",
-      category: "PC"
-    },
-    {
-      name: "Sprunki",
-      thumbnail: "games/Incredibox - Sprunki/sprunki.png",
-      url: "games/Incredibox - Sprunki",
-      category: "PC"
-    },
-    {
-      name: "The 14TH Axe Wound",
-      thumbnail: "games/THE%2014TH%20AXE%20WOUND/14.png",
-      url: "games/THE%2014TH%20AXE%20WOUND",
-      category: "PC"
-    },
-    {
-      name: "Sofia",
-      thumbnail: "games/Sofia/www/icon/icon.png",
-      url: "games/Sofia/www",
-      category: "PC"
-    },
-    {
-      name: "You and Me",
-      thumbnail: "games/You%20And%20Me-2.0-win/www/icon/icon.png",
-      url: "games/You%20And%20Me-2.0-win/www",
-      category: "PC"
-    },
-    {
-  name: "We Become What We Behold",
-  thumbnail: "games/we%20bmc/we.png",
-  url: "https://mr-funkinguy.github.io/gfile/wbwwb/index.html",
-  category: "PC"
-    },
-    {
-        name: "Tunnel Rush",
-        thumbnail: "games/tunnelrush/images.webp",
-        url: "games/tunnelrush",
-        category: "PC"
-          },
-          {
-            name: "Survive!",
-            thumbnail: "games/zumbi/unnamed.webp",
-            url: "games/zumbi",
-            category: "PC"
-              },
-              {
-name:"2048",
-thumbnail: "games/1v1/2048_logo.png",
-url: "games/1v1",
+{
+name: "Minecraft",
+thumbnail: "images/Minecraft.png",
+url: "https://sz-games.github.io/storage3/AWeb",
 category: "PC"
-              },
+},
 {
-    name: "Crossy Road",
-    thumbnail: "games/crossyroad/sprites/chicken.png",
-    url: "games/crossyroad",
+    name: "Minecraft Shooter",
+    thumbnail: "images/MINECRAFTSHOOTER.png",
+    url: "https://sz-games.github.io/Games8/MINECRAFTSHOOTER",
     category: "PC"
 },
 {
-    name: "Duck Life 1",
-    thumbnail: "games/ducklife/logo.jpg",
-    url: "games/ducklife",
+name: "Minecraft Tower Defense" ,
+thumbnail: "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/mtd.png",
+url: "https://sz-games.github.io/Games9/mftd.swf",
+category: "PC"
+},
+{
+    name: "Minecraft Tower Defense 2",
+    thumbnail: "https://raw.githubusercontent.com/sz-games/sz-games.github.io/main/cover/mtd2.png",
+    url: "https://sz-games.github.io/Games9/mftd2.swf",
     category: "PC"
 },
 {
-    name: "Duck Life 2",
-    thumbnail: "games/ducklife2/logo.png",
-    url: "games/ducklife2",
+    name: "FNAF 1",
+    thumbnail: "images/fnaf1.jpeg",
+    url: "https://sz-games.github.io/Games9/fnaf-1/index.html",
     category: "PC"
 },
 {
-    name: "Duck Life 3",
-    thumbnail: "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/f5671816-e95b-4d41-adb7-411708f431ba.png",
-    url: "games/ducklife3",
+    name: "FNAF 2",
+    thumbnail: "images/fnaf2.webp",
+    url: "https://sz-games.github.io/Games4//fnaf-2/index.html",
     category: "PC"
 },
 {
-    name: "Duck Life 4",
-    thumbnail: "games/ducklife4/logo.png",
-    url: "games/ducklife4",
+    name: "FNAF 3",
+    thumbnail: "images/fnaf3.webp",
+    url: "https://sz-games.github.io/Games9/fnaf-3/index.html",
     category: "PC"
 },
 {
-    name: "Bloons Td 1",
-    thumbnail: "games/btd1/logo.jpg",
-    url: "games/btd1",
+    name: "FNAF 4",
+    thumbnail: "images/fnaf4.jpeg",
+    url: "https://sz-games.github.io/Games9/fnaf-4/index.html",
     category: "PC"
 },
 {
-    name: "Bloons Td 2",
-    thumbnail: "games/btd2/Btd2.webp",
-    url: "games/btd2",
+    name: "We Become What We Behold",
+    thumbnail: "images/67K.avif",
+    url: "https://mr-funkinguy.github.io/gfile/wbwwb/index.html    ",
     category: "PC"
 },
 {
-    name: "Bloons Td 3",
-    thumbnail: "games/btd3/Btd3a.webp",
-    url: "games/btd3",
+    name: "Bloons td 1",
+    thumbnail: "images/btd.png",
+    url: "https://sz-games.github.io/Games7/bloonstd.swf    ",
     category: "PC"
 },
 {
-    name: "Bloons Td 4",
-    thumbnail: "games/btd4/btd4.webp",
-    url: "games/btd4",
+    name: "Bloons td 3",
+    thumbnail: "images/btd3.png",
+    url: "https://sz-games.github.io/Games7/btd3.swf   ",
     category: "PC"
 },
 {
-    name: "Bloons Td 5",
-    thumbnail: "games/btd5/Btd5_logo.webp",
-    url: "games/btd5",
+    name: "Bloons td 4",
+    thumbnail: "images/btd4.png",
+    url: "https://sz-games.github.io/Games7/bloonstd4.swf   ",
     category: "PC"
 },
 {
-    name: "Geometry Dash(High Ram Use)",
-    thumbnail: "games/geometrydash/logo.png",
-    url: "games/geometrydash",
+    name: "Bloons td 5",
+    thumbnail: "images/btd5.png",
+    url: "https://sz-games.github.io/Games7/btd5.swf",
     category: "PC"
 },
-{
-    name: "Drift boss",
-    thumbnail: "games/driftboss/drift-boss.png",
-    url: "games/driftboss",
+/*{ readd soon
+    name: "BitLife",
+    thumbnail:"images/Bitlife.png",
+    url: "https://sz-games.github.io/games/game.html?game=/Games9/bitlife",
     category: "PC"
-},
+}*/
 {
-    name: "Stickman Boost",
-    thumbnail: "games/stickmanboost/cover.png",
-    url: "games/stickmanboost",
-    category: "PC"
-},
-/* acho que tá bugado, depois tento arrumar
-{
-    name: "Bottle Flip",
-    thumbnail: "games/bottleflip/icons/icon-256.png",
-    url: "games/bottleflip",
-    category: "PC"
-},*/
-              {
-   name:"Cookie Clicker",
-   thumbnail: "games/cookieclicker/icon.webp",
-   url: "games/cookieclicker",
-   category: "PC"
-  },
-   {
-  name:"Papa's Bakeria",
- thumbnail: "games/papabakeria/images.webp",
- url: "games/papabakeria",
-  category: "PC"
- },
-  {
- name:"Papa's Burgueria",
- thumbnail: "games/papaburgueria/logo.png",
- url: "games/papaburgueria",
+ name: "SubWay Surfers",
+ thumbnail: "images/sub.webp",
+ url: "https://dddavit.github.io/subway/",
  category: "PC"
 },
 {
-name:"Papa's Cheeseria",
-thumbnail: "games/papacheeseria/logo.jpg",
-url: "games/papacheeseria",
-category: "PC"
-},
-{
-  name: "Papa's Cupcakeria",
-  thumbnail: "games/papascupcakeria/logo.webp",
-  url: "games/papascupcakeria",
-  category: "PC"
-  },
-  {
-    name: "Papa's Donuteria",
-    thumbnail: "games/papadonuteria/logo.webp",
-    url: "games/papadonuteria",
+    name: "Chrome Dino",
+    thumbnail: "images/dino.webp",
+    url: "https://sz-games.github.io/games/dino",
     category: "PC"
-  },
-  {
-    name: "Papa's Freezeria",
-    thumbnail: "games/papasfreezeria/logo.webp",
-    url: "games/papasfreezeria",
+   },
+   {
+    name: "Slope",
+    thumbnail: "images/slope.webp",
+    url: "https://sz-games.github.io/games/game.html?game=/slope/",
     category: "PC"
-    },
-    {
-        name: "Papa's Pastaria",
-        thumbnail: "games/papapastaria/logo.webp",
-        url: "games/papapastaria",
-        category: "PC"
-    },
-    {
-        name: "Papa's Pizzeria",
-        thumbnail: "games/papapizzeria/logo.webp",
-        url: "games/papapizzeria",
-        category: "PC"
-    },
-    {
-        name: "Papa's Scooperia",
-        thumbnail: "games/papascooperia/logo.webp",
-        url: "games/papascooperia",
-        category: "PC"
-    },
-    {
-        name: "Papa's Sushiria",
-        thumbnail: "games/papasushisaria/logo.webp",
-        url: "games/papasushisaria",
-        category: "PC"
-    },
-{
-    name: "Moto X3M Pool",
-    thumbnail: "games/mx3/splash.jpg",
-    url: "games/mx3/",
+   },
+   {
+    name: "Slide In the Woods",
+    thumbnail: "images/slidein.webp",
+    url: "https://sz-games.github.io/games/woods",
     category: "PC"
-},
-{
-    name: "Moto X3M Winter",
-    thumbnail: "games/mx3w/splash.jpg",
-    url: "games/mx3w/",
+   },
+   {
+    name: "Survive!",
+    thumbnail: "images/SurMode.webp",
+    url: "https://sz-games.github.io/games/zombie",
     category: "PC"
-},
-{
-    name: "Moto X3M Spooky",
-    thumbnail: "games/mx3s/splash.jpeg",
-    url: "games/mx3s",
+   },
+   {
+    name: "Flydra",
+    thumbnail: "images/hydra.webp",
+    url: "https://sz-games.github.io/games/Bin/Game_file/call/hydra",
     category: "PC"
-},
-{
-    name: "Moto X3M",
-    thumbnail: "games/mx3o/splash.jpg",
-    url: "games/mx3o",
+   },
+   {
+    name: "Cookie Clicker",
+    thumbnail: "images/click.png",
+    url: "https://mr-funkinguy.github.io/cookieclicker/",
     category: "PC"
-},
-{
-    name: "Friday Night Funkin",
-    thumbnail: "games/fnf/logo.png",
-    url: "games/fnf/",
+   },
+   {
+    name: "Fluid Animation",
+    thumbnail: "images/logo.png",
+    url: "https://sz-games.github.io/storage3/1/",
     category: "PC"
-},
-{
-name: "Paper.io 2",
-thumbnail: "games/paperio2/logo.png",
-url: "games/paperio2",
-category: "PC"
-},
-{
-    name:"1v1.lol",
-    thumbnail: "games/1v1lol/logo.png",
-    url: "games/1v1lol",
+   },
+   {
+    name: "Geometry Dash",
+    thumbnail: "images/geo.jpeg",
+    url: "https://sz-games.github.io/Games10/geodash/index.html",
     category: "PC"
-},
-                              {
-                                name:"Magic Tiles",
-                                thumbnail: "games/magictiles/unnamed.webp",
-                                url: "games/magictiles",
-                                category: "PC"
-                                              },
-               
-                      {
-                name: "Flydra",
-                thumbnail: "games/whatthat/sprite/player.png",
-                url: "games/whatthat",
-                category: "PC"
-                  },
-                  {
-                    name: "Google Snake",
-                    thumbnail: "games/googlesnake/snakewebp.webp",
-                    url: "games/googlesnake",
-                    category: "PC"
-                      },
- /* arquivo muito pesado, lanço depois de fazer o resto.   
- {
-  name: "Minecraft",
-  thumbnail: "games/Precision%20Launcher%20V3%20(PT-BR)%20(x64)/mlg.png",
-  url: "games/Precision%20Launcher%20V3%20(PT-BR)%20(x64)",
-  category: "PC"
-    },*/
-    {
-        name: "Dino",
-        thumbnail: "games/dino/assets/default_100_percent/100-disabled.png",
-        url: "games/dino/",
-        category: "PC"
-    },
-        {
-            name: "Chess",
-            thumbnail: "games/ches/download.png",
-            url: "games/ches/",
-            category: "PC"
-              },
-              {
-                name: "Rooftop Snipers",
-                thumbnail: "games/rooftop/snipers.jpg",
-                url: "games/rooftop/",
-                category: "PC"
-                  },
-        {
-      name: "FNAF 1",
-      thumbnail: "games/FNAF1-main//download.png",
-      url: "games/FNAF1-main",
-      category: "PC"
-    },
-    {
-      name: "FNAF 2",
-      thumbnail: "games/FNAF2-main/unnamed.webp",
-      url: "games/FNAF2-main/",
-      category: "PC"
-    },
-    {
-      name: "FNAF 3(Takes a bit long to load)",
-      thumbnail: "games/fnaf3-main/FNaF_3_logo.webp",
-      url: "games/fnaf3-main/index.html",
-      category: "PC"
-    },
+   },
+   {
+    name: "Plantas VS Zombies",
+    thumbnail: "images/pvz.png",
+    url: "https://sz-games.github.io/games/Flash.html?game=/Games11/pvz.swf",
+    category: "PC"
+   },
+   {
+    name: "Plantas VS Zombies",
+    thumbnail: "images/isaacb.png",
+    url: "https://sz-games.github.io/games/Flash.html?game=/Games11/the_binding_of_isaac.swf",
+    category: "PC"
+   },
+   {
+    name: "DuckLife 1",
+    thumbnail: "images/ducklife.avif",
+    url: "https://sz-games.github.io/games/Flash.html?game=/Games11/ducklife1/game.swf",
+    category: "PC"
+   },
+   {
+    name: "DuckLife 2",
+    thumbnail: "images/logo.webp",
+    url: "https://sz-games.github.io/games/Flash.html?game=/Games11/ducklife2/game.swf",
+    category: "PC"
+   },
+   {
+    name: "DuckLife 3",
+    thumbnail: "images/logoo.webp",
+    url: "https://sz-games.github.io/games/Flash.html?game=/Games11/ducklife3/game.swf",
+    category: "PC"
+   },
+   {
+    name: "DuckLife 4",
+    thumbnail: "images/logo2.png",
+    url: "https://sz-games.github.io/games/Flash.html?game=/Games11/ducklife4/game.swf",
+    category: "PC"
+   },
+   {
+    name: "Burger And Frights",
+    thumbnail: "images/BAFy.jpeg",
+    url: "https://sz-games.github.io/Games6/burger-and-frights",
+    category: "PC"
+   },
+   {
+    name: "Cut the rope",
+    thumbnail: "images/ctr.png",
+    url: "https://sz-games.github.io/Games5/ctr",
+    category: "PC"
+   },
+   {
+    name: "Cut the rope 2",
+    thumbnail: "images/ctr2.png",
+    url: "https://sz-games.github.io/Games5/ctr-holiday",
+    category: "PC"
+   },
+   {
+    name: "Cute the rope 3",
+    thumbnail: "images/tr3.png",
+    url: "https://sz-games.github.io/Games5/ctr-tr",
+    category: "PC"
+   },
+   {
+    name: "Fruit Ninja",
+    thumbnail: "images/tr3.png",
+    url: "https://sz-games.github.io/Games5/ctr-tr",
+    category: "PC"
+   },
   ];
   
   function updateGameCount() {
