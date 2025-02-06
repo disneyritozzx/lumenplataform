@@ -347,6 +347,7 @@ window.addEventListener('load', updateGameCount);
       const thumbnail = document.createElement('div');
       thumbnail.className = 'game-thumbnail slide-in';
       thumbnail.href = game.url;
+      thumbnail.target = "_blank";
       thumbnail.innerHTML = `
           <img src="${game.thumbnail}" alt="${game.name}">
           <p>${game.name}</p>
