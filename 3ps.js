@@ -346,6 +346,7 @@ window.addEventListener('load', updateGameCount);
   function createGameThumbnail(game) {
       const thumbnail = document.createElement('div');
       thumbnail.className = 'game-thumbnail slide-in';
+      thumbnail.href = game.url;
       thumbnail.innerHTML = `
           <img src="${game.thumbnail}" alt="${game.name}">
           <p>${game.name}</p>
@@ -355,13 +356,14 @@ window.addEventListener('load', updateGameCount);
   }
 
   function openGamePreview(game) {
-      previewFrame.src = game.url;
+     /* previewFrame.src = game.url;
       previewTitle.textContent = game.name;
       previewContainer.classList.add('active');
       gsap.fromTo(previewContainer, 
           { scale: 0.8, opacity: 0 },
           { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(1.7)" }
-      );
+      );*/
+    window.open(game.url, "_blank")
   }
 
   function closeGamePreview() {
@@ -433,12 +435,12 @@ window.addEventListener('load', updateGameCount);
   fullscreenBtn.addEventListener('click', toggleFullscreen);
   closeBtn.addEventListener('click', closeGamePreview);
   searchButton.addEventListener('click', searchGames);
-function eventobalusca() {
+/*function eventobalusca() {
     if(closeBtn && fullscreenBtn) {
         exitFullscreenBtn = false;
     }
 }
-eventobalusca(); 
+eventobalusca();*/ // pqp pq eu fiz isso 
 document.addEventListener('fullscreenchange', () => {
       if (document.fullscreenElement) {
           exitFullscreenBtn.style.display = 'block';
