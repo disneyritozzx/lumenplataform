@@ -273,6 +273,13 @@ category: "PC"
   category: "PC"
     },*/
     {
+        name: "Minecraft",
+        thumbnail:"https://imgur.com/a/xJpHkjr",
+        url:"https://disneyritozzx.github.io/minecraft/",
+        category: "PC"
+
+    },
+    {
         name: "Dino",
         thumbnail: "games/dino/assets/default_100_percent/100-disabled.png",
         url: "games/dino/",
