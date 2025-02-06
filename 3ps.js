@@ -273,6 +273,13 @@ category: "PC"
   category: "PC"
     },*/
     {
+        name: "Minecraft",
+        thumbnail:"https://imgur.com/a/xJpHkjr",
+        url:"https://disneyritozzx.github.io/minecraft/",
+        category: "PC"
+
+    },
+    {
         name: "Dino",
         thumbnail: "games/dino/assets/default_100_percent/100-disabled.png",
         url: "games/dino/",
@@ -420,14 +427,19 @@ window.addEventListener('load', updateGameCount);
       setTimeout(() => {
           loadingScreen.style.display = 'none';
           displayGames();
-      }, 1500); // Simulating loading time
+      }, 1500); // kkkkkkkkkkkkkkkkkkkkkkkk
   });
 
   fullscreenBtn.addEventListener('click', toggleFullscreen);
   closeBtn.addEventListener('click', closeGamePreview);
   searchButton.addEventListener('click', searchGames);
-
-  document.addEventListener('fullscreenchange', () => {
+function eventobalusca() {
+    if(closeBtn && fullscreenBtn) {
+        exitFullscreenBtn = false;
+    }
+}
+eventobalusca(); 
+document.addEventListener('fullscreenchange', () => {
       if (document.fullscreenElement) {
           exitFullscreenBtn.style.display = 'block';
           gsap.from(exitFullscreenBtn, { scale: 0, opacity: 0, duration: 0.3, ease: "back.out(1.7)" });
@@ -450,15 +462,15 @@ window.addEventListener('load', updateGameCount);
       }
   });
 
-  // Blur effect on scroll
+  // blur
   window.addEventListener('scroll', () => {
       const scrollPosition = window.scrollY;
       const header = document.querySelector('.header-content');
-      const blurValue = Math.min(scrollPosition / 75, 10); // Max blur of 10px
+      const blurValue = Math.min(scrollPosition / 75, 10); // maximo 10
       header.style.backdropFilter = `blur(${blurValue}px)`;
   });
 
-  // GSAP animations
+  // anmiacaço
   gsap.from(".logo", { opacity: 0, x: -50, duration: 1, ease: "power3.out", delay: 1.5 });
   gsap.from(".search-container", { opacity: 0, x: 50, duration: 1, ease: "power3.out", delay: 1.5 });
   gsap.from(".category-title", { opacity: 0, y: 30, duration: 1, stagger: 0.2, ease: "power3.out", delay: 1.7 });
