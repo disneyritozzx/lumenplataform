@@ -440,6 +440,17 @@
     <script>
         gsap.registerPlugin(ScrollTrigger);
 
+        let games = []; // Declare games globally
+
+        // Fetch games from the JSON file
+        fetch('games.json')
+            .then(response => response.json())
+            .then(data => {
+                games = data; // Update the games variable with the fetched data
+                renderGames(); // Render the games after fetching
+            })
+            .catch(error => console.error('Error fetching games:', error));
+
         function createGameCard(game) {
             const card = document.createElement('div');
             card.className = 'game-card';
