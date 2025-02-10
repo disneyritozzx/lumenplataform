@@ -298,5 +298,11 @@
       "thumbnail": "https://disneyritozzx.github.io/lumenplataform/games/fnaf3-main/FNaF_3_logo.webp",
       "url": "https://disneyritozzx.github.io/lumenplataform/games/fnaf3-main/index.html/",
       "category": "PC"
-    }
+    },
+{
+  "name": "HexGL",
+  "url": "https://disneyritozzx.github.io/Games/HexGL-master/",
+  "thumbnail": "https://github.com/disneyritozzx/Games/blob/main/HexGL-master/icon_128.png",
+  "category": "PC"
+}
   ]
