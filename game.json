@@ -314,7 +314,13 @@
 {
   "name": "Bob the Robber 2",
   "url": "https://disneyritozzx.github.io/Games/bobtherobber2/",
-  "thumbnail": "https://github.com/disneyritozzx/Games/blob/main/bobtherobber2/splash.jpeg",
+  "thumbnail": "https://disneyritozzx.github.io/Games/bobtherobber2/splash.jpeg",
+  "category": "PC"
+},
+{
+  "name": "Google Gravity",
+  "url": "https://disneyritozzx.github.io/Games/googlegravity-main/",
+  "thumbnail": "https://disneyritozzx.github.io/Games/googlegravity-main/G-icon.png",
   "category": "PC"
 }
   ]
